@@ -34,17 +34,18 @@ def dfx(alpha, f, x, h=1):
 fig = plt.figure()
 ax = numpy.linspace(-100, 100)
 
-GRAPHS = 20
+MAX_D = 1
+GRAPHS = 10
 arrs = []
-for num in range(GRAPHS):
+for num in range(GRAPHS ):
     arrs.append([])
 
 for num in ax:
     for i in range(GRAPHS):
-        d = 0 + i * 0.1
+        d = 0 + (i * MAX_D / GRAPHS)
         arrs[i].append(dfx(d, x_sq, num))
 
 for num in arrs:
-    plt.plot(ax, num, 'b')
+    plt.plot(ax, num)
 
 plt.show()
