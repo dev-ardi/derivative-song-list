@@ -1,5 +1,5 @@
 # Derivative song list
-Tired that the top 50 of your country is the same across many weeks? What if instead of total views you could sort by the increase of the views in a week? Or the velocity? Or the acceleration? Or the change in acceleration? Or anything in between?
+Tired that the top 50 of your country being the same across many weeks? What if instead of total views you could sort by the increase of the views in a week? Or the velocity? Or the acceleration? Or the change in acceleration? Or anything in between?
 
 In between? What am I talking about?
 
